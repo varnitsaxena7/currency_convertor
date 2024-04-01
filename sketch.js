@@ -9,7 +9,8 @@ let inpt1=inputs[0];
 let inpt2=inputs[1];
 
 let rates={};
-let requestURL="https://api.exchangerate.host/latest?base=USD";
+let requestURL = "https://api.exchangerate-api.com/v4/latest/USD";
+
 
 fetchRates();
 
