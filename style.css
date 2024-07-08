@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    background-image:url('pexels-roger-brown-3435524-5435844.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(245, 245, 245, 0.9)); 
+    width: 470px;
+    height: 360px;
+    padding: 50px; 
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    text-align: center; 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s; 
+
+.container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.2); 
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; 
+}
+
+.container p {
+    font-size: 16px;
+    color: #2a2828; 
+}
+
+.heading{
+    color:#46406c;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:2.8rem;
+}
+.rate{
+    margin-top:-1.5rem;
+    
+}
+.rate1{
+    color:#848484;
+}
+.rate2{
+    margin-top:0.5rem;
+    font-size:1.5rem;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.swap{
+    align-self: flex-end;
+    padding:5px;
+    cursor:pointer;
+}
+.option  {
+    width: 100px; 
+    background-color: #f8f9fa;
+    color: #495057;
+    font-size: 22px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background-position: right 12px center;
+    background-size: 8px 10px;
+}
+
+.option:hover {
+    border-color: #888;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.input input {
+    all: unset;
+    display: inline-block;
+    margin-top: 1rem;
+    width: 175px;
+    height: 50px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 500;
+    appearance: textfield;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.input input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.target{
+    transform: translateX(-10%);
+}
+.result{
+    margin-top: 1.5rem;
+    width:100%;
+    height:50px;
+    text-align: center;
+    color:aliceblue;
+    background-color: #46406c;
+    outline: none;
+    border: none;
+    border-radius:5px;
+}
+.result:active{
+    background-color:#342f52;
+}
+
+
+
+}
